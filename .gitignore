@@ -1,0 +1,36 @@
+# dependencies
+# Ignore node_modules folders in any subdirectory
+**/node_modules
+
+# build artifacts
+**/build
+**/.next
+**/dist
+**/coverage
+
+# secret files
+# Ignore all .env files in any subdirectory
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
